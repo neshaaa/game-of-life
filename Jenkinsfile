@@ -5,7 +5,7 @@ node('Centos'){
     
 
     stage('build'){
-        sh label: '', script: 'mvn package'
+        sh label: '', script: 'mvn clean package'
 
     }
 
